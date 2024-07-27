@@ -1,0 +1,38 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e03d00;
+}
+
+#house-info {
+    margin-top: 20px;
+}
+
+#house-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#house-lord {
+    font-size: 18px;
+    font-style: italic;
+}
