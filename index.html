@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Houses of Westeros</title>
-    <style>
- 
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="container">
@@ -17,10 +15,12 @@
             <p id="house-name"></p>
             <p id="house-region"></p>
             <p id="house-words"></p>
-            <p id="house-lord"></p>
+            <div id="house-lord">
+                <div class="skeleton" id="skeleton-lord">Loading...</div>
+                <p class="real-info" id="real-lord"></p>
+            </div>
         </div>
     </div>
-    <script src="script.js">
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>

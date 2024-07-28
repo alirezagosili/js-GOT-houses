@@ -57,16 +57,26 @@ button:hover {
     margin-bottom: 10px;
 }
 
-#house-region, #house-words, #house-lord {
+#house-region, #house-words {
     font-size: 18px;
     margin: 10px 0;
 }
 
-#house-sigil {
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+#house-lord {
+    position: relative;
+}
+
+.skeleton {
+    background: #ddd;
+    height: 20px;
+    width: 100%;
+    border-radius: 4px;
+    display: none;
+    margin-top: 10px;
+}
+
+.real-info {
+    font-size: 18px;
+    margin: 10px 0;
+    display: none;
 }
